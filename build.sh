@@ -1,4 +1,5 @@
 #!/bin/bash
+setenforce 0
 rm -f auto.ks
 rm -r result
 echo "Доступны следующие вариант"
@@ -26,4 +27,4 @@ case $variant in
 esac
 
 ksflatten -c base/$config.ks -o auto.ks -v f43
-livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name $name-live-x86_64.iso --volid Fedora --releasever 43 --resultdir ./result --nomacboot --project "Fedora custom"
+livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name fedora-$name-live-x86_64.iso --volid Fedora --releasever 43 --resultdir ./result --nomacboot --project "fedora-$name-live-43"
