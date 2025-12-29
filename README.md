@@ -9,6 +9,8 @@ DE: Gnome
 
 Установлены дополнительные пакеты: aria2, fastfetch, wget, git, unzip, unxz, ffmpeg-libs, unrar, gnome-tweaks
 
+Репозиторий fedora-cisco-openh264 отключён по умолчанию 
+
 # Как создать свой образ
 1) Установить в Fedora через dnf пакеты lorax-lmc-novirt и pykickstart
  
