@@ -14,7 +14,7 @@ selinux --enforcing
 firewall --enabled --service=mdns
 xconfig --startxonboot
 zerombr
-part / --size 8192
+part / --size 10000
 clearpart --all
 services --enabled=NetworkManager,ModemManager --disabled=sshd
 network --bootproto=dhcp --device=link --activate
