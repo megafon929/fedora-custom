@@ -16,6 +16,7 @@ DE: Gnome
 `git clone https://github.com/megafon929`
 
 3) Из-под root (или sudo) запустить сборку
+
 `# sh build.sh`
 
 4) Забрать готовый ISO файл в папке result
