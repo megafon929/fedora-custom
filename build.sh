@@ -1,4 +1,5 @@
 #!/bin/bash
+current_date=$(date +%Y%m%d)
 rm -f auto.ks
 rm -r result
 echo "Доступны следующие вариант"
@@ -41,4 +42,4 @@ case $variantn in
        ;;
 esac
 ksflatten -c base/$config$nvidia.ks -o auto.ks -v f43
-livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name fedora-$name$nvidia-live-x86_64.iso --volid Fedora --releasever 43 --resultdir ./result --nomacboot --project "$name$nvidia f43"
+livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name fedora-$name$nvidia-live-x86_64-$current_date.iso --volid Fedora --releasever 43 --resultdir ./result --nomacboot --project "$name$nvidia $current_date f43"
