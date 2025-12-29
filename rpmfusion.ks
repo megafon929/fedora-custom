@@ -7,6 +7,7 @@ repo --name="rpmfusion-nonfree-release-tainted" --mirrorlist=http://mirrors.rpmf
 rpmfusion-free-release
 rpmfusion-nonfree-release
 ffmpeg-libs
+unrar
 %end
 
 %post
