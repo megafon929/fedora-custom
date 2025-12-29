@@ -1,9 +1,12 @@
 # fedora-custom
 Неофициальный образ Fedora Linux с включённым rpmfusion
+
 Образ на русском языке
 
 DE: Gnome
+
 Браузер: Firefox
+
 Установлены дополнительные пакеты: aria2, fastfetch, wget, git, unzip, unxz, ffmpeg-libs, unrar, gnome-tweaks
 
 # Как создать свой образ
