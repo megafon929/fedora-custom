@@ -5,7 +5,7 @@
 %include base.ks
 
 %packages
-# Gnome desktop custom configuration
+# KDE desktop custom configuration
 @kde-desktop
 %end
 
