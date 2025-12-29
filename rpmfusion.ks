@@ -5,13 +5,12 @@ repo --name="rpmfusion-nonfree-release-tainted" --mirrorlist=http://mirrors.rpmf
 
 %packages
 rpmfusion-free-release
-rpmfusion-free-release-tainted
 rpmfusion-nonfree-release
-rpmfusion-nonfree-release-tainted
 ffmpeg-libs
 %end
 
 %post
 dnf config-manager setopt fedora-cisco-openh264.enabled=0
 flatpak remote-delete fedora
+
 %end
