@@ -1,6 +1,4 @@
 # Configuration by Yaroslav Popkov (aka m929)
-# This minimal configuration Fedora with Gnome Desktop 
-# There is no gnome-classic-session in this configuration, which makes the system cleaner
 
 %include base.ks
 
