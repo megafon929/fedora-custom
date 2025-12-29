@@ -16,6 +16,7 @@ gnome-settings-daemon
 gnome-shell
 gnome-software
 gnome-text-editor
+gnome-tweaks
 nautilus
 polkit
 ptyxis
