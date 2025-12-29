@@ -24,20 +24,5 @@ case $variant in
        exit 
        ;;
 esac
-echo "Нужны драйвера?"
-echo "1) Да"
-echo "2) Нет"
-echo -n "Выбирете вариант: "
-read variantn
-case $variantn in
-    1) echo "Выбран вариант с nvidia" 
-       nvidia="akmod-nvidia xorg-x11-drv-nvidia-cuda"
-       ;;
-    2) echo "Выбран вариант без nvidia"
-       ;;
-    *) echo "Неверно! Начинайте заново"
-       exit 
-       ;;
-esac
 ksflatten -c base/$config.ks -o auto.ks -v f43
 livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name $name-live-x86_64.iso --volid Fedora --releasever 43 --resultdir ./result --nomacboot --project "Fedora custom"
