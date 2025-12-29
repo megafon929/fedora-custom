@@ -100,7 +100,7 @@ unxz
 -gstreamer1-plugin-openh264
 %end
 
-%include rpmfusion.ks
+%include custom-repo.ks
 
 %post
 sed -i 's/^livesys_session=.*/livesys_session="gnome"/' /etc/sysconfig/livesys
