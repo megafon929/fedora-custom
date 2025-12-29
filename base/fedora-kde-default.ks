@@ -6,7 +6,7 @@
 
 %packages
 # Gnome desktop custom configuration
-@kde-desktop-environment
+@kde-desktop
 %end
 
 %include custom-repo.ks
