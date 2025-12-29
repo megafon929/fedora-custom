@@ -7,9 +7,9 @@
 # Does includes "default" language configuration (kickstarts including
 # this template can override these settings)
 
-lang en_US.UTF-8
+lang ru_RU.UTF-8
 keyboard us
-timezone US/Eastern
+timezone Europe/Moscow
 selinux --enforcing
 firewall --enabled --service=mdns
 xconfig --startxonboot
