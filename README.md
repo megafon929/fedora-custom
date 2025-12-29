@@ -4,7 +4,7 @@
 
 DE: Gnome
 Браузер: Firefox
-Установлены дополнительные пакеты: aria2, fastfetch, wget, git, unzip, unxz, ffmpeg-libs, unrar
+Установлены дополнительные пакеты: aria2, fastfetch, wget, git, unzip, unxz, ffmpeg-libs, unrar, gnome-tweaks
 
 # Как создать свой образ
 1) Установить в Fedora через dnf пакеты lorax-lmc-novirt и pykickstart
