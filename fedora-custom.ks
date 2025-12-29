@@ -91,6 +91,8 @@ mc
 git
 firefox
 fastfetch
+unzip
+unxz
 
 # No need
 -gnome-tour
