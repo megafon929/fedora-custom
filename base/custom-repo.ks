@@ -6,6 +6,7 @@ rpmfusion-free-release
 rpmfusion-nonfree-release
 ffmpeg-libs
 unrar
+$nvidia
 %end
 
 %post
