@@ -3,7 +3,7 @@
 
 Образ на русском языке
 
-DE: Gnome
+DE: Gnome и KDE
 
 Браузер: Firefox
 
