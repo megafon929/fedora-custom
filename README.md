@@ -13,7 +13,7 @@ DE: Gnome
 
 2) Сделать копью репозитория
 
-`git clone https://github.com/megafon929`
+`git clone https://github.com/megafon929/fedora-custom`
 
 3) Из-под root (или sudo) запустить сборку
 
