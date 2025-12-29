@@ -16,7 +16,7 @@ DE: Gnome и KDE
  
 `dnf install lorax-lmc-novirt pykickstart`
 
-2) Сделать копию репозитория
+2) Сделать клон репозитория
 
 `git clone https://github.com/megafon929/fedora-custom`
 
