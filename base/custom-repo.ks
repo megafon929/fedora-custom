@@ -10,4 +10,5 @@ unrar
 
 %post
 dnf config-manager setopt fedora-cisco-openh264.enabled=0
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 %end
