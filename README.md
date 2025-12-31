@@ -11,6 +11,8 @@ DE: Gnome и KDE
 
 Репозиторий fedora-cisco-openh264 отключён по умолчанию 
 
+Flathub включен по умолчанию
+
 # Как создать свой образ
 1) Установить в Fedora через dnf пакеты lorax-lmc-novirt и pykickstart
  
