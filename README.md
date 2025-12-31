@@ -1,5 +1,5 @@
 # fedora-custom
-Неофициальный образ Fedora Linux с включённым rpmfusion
+Неофициальные образы Fedora Linux с включённым rpmfusion
 
 Образ на русском языке
 
