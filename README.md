@@ -7,7 +7,7 @@ DE: Gnome и KDE
 
 Браузер: Firefox
 
-Установлены дополнительные пакеты: aria2, fastfetch, wget, git, unzip, unxz, ffmpeg-libs, unrar, gnome-tweaks
+Установлены дополнительные пакеты: aria2, fastfetch, wget, git, unzip, unxz, ffmpeg-libs, unrar, gnome-tweaks (в образах с Gnome)
 
 Репозиторий fedora-cisco-openh264 отключён по умолчанию 
 
