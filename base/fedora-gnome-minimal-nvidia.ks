@@ -5,7 +5,6 @@
 %packages
 # Gnome desktop custom configuration
 @gnome-desktop
--gstreamer1-plugin-openh264
 -gnome-classic-session
 -gnome-boxes
 -gnome-connections
