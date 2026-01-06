@@ -42,4 +42,4 @@ case $variantn in
        ;;
 esac
 ksflatten -c base/$config$nvidia.ks -o auto.ks -v f43
-livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name fedora-$name$nvidia-live-x86_64-$current_date.iso --volid Fedora --releasever 43 --resultdir ./result --nomacboot --project "fedora-$name$nvidia-$current_date"
+livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name fedora-$name$nvidia-live-x86_64-$current_date.iso --volid Fedora --releasever 43 --resultdir ./result-$name$nvidia --nomacboot --project "fedora-$name$nvidia-$current_date"
