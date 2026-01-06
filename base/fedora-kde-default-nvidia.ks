@@ -1,17 +1,30 @@
 # Configuration by Yaroslav Popkov (aka m929)
-# This minimal configuration Fedora with Gnome Desktop 
-# There is no gnome-classic-session in this configuration, which makes the system cleaner
 
 %include base.ks
 
 %packages
-# Gnome desktop custom configuration
-@kde-desktop-environment
+# KDE desktop custom configuration
+@kde-desktop
+-hplip
 -gstreamer1-plugin-openh264
 %end
 
 %include custom-repo.ks
 %include nvidia.ks
+
 %post
-sed -i 's/^livesys_session=.*/livesys_session="gnome"/' /etc/sysconfig/livesys
+# set default GTK+ theme for root (see #683855, #689070, #808062)
+cat > /root/.gtkrc-2.0 << EOF
+include "/usr/share/themes/Adwaita/gtk-2.0/gtkrc"
+include "/etc/gtk-2.0/gtkrc"
+gtk-theme-name="Adwaita"
+EOF
+mkdir -p /root/.config/gtk-3.0
+cat > /root/.config/gtk-3.0/settings.ini << EOF
+[Settings]
+gtk-theme-name = Adwaita
+EOF
+
+# set livesys session type
+sed -i 's/^livesys_session=.*/livesys_session="kde"/' /etc/sysconfig/livesys
 %end
