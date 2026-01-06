@@ -1,29 +1,34 @@
 # fedora-custom
-Неофициальные образы Fedora Linux с включённым rpmfusion
 
-Образ на русском языке
+fedora-custom is a project created with the aim of creating unofficial ISOs of Fedora Linux for Russia, Belarus and Ukraine.
 
-DE: Gnome и KDE
+Due to the blocking of the fedora-cisco-openh264 repository by Cisco for Russia, Belarus, and Ukraine, regular Fedora Linux images become more difficult to set up initially.
 
-Браузер: Firefox
+fedora-custom is not a full-fledged distribution. This is an unofficial build. We do not maintain any infrastructure. We rely on ready-made solutions.
 
-Установлены дополнительные пакеты: aria2, fastfetch, wget, git, unzip, unxz, ffmpeg-libs, unrar, gnome-tweaks (в образах с Gnome)
+## whats added on this builds
 
-Репозиторий fedora-cisco-openh264 отключён по умолчанию 
+The following packages are pre-installed in each image:
 
-Flathub включен по умолчанию
+- aria2
+- wget
+- mc
+- git
+- firefox
+- fastfetch
+- unzip
+- unxz
+- ffmpeg-libs
+- unrar
 
-# Как создать свой образ
-1) Установить в Fedora через dnf пакеты lorax-lmc-novirt и pykickstart
- 
-`dnf install lorax-lmc-novirt pykickstart`
+## gnome-default
 
-2) Сделать клон репозитория
+fedora-gnome-deafult contains standard packages that come in the @gnome-desktop group. Gnome-tweaks is also pre-installed.
 
-`git clone https://github.com/megafon929/fedora-custom`
+## gnome-minimal 
 
-3) Из-под root (или sudo) запустить сборку
+fedora-gnome-minimal contains standard packages that come in the @gnome-desktop group with the exception of gnome-boxes, gnome-classic-session and gnome-connections. Gnome-tweaks is also pre-installed. Recommended instead of gnome-default.
 
-`# sh build.sh`
+## kde-default
 
-4) Забрать готовый ISO файл в папке result
+fedora-kde-deafult contains standard packages that come in the @kde-desktop group.
