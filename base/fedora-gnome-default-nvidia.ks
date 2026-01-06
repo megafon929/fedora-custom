@@ -7,6 +7,7 @@
 %packages
 # Gnome desktop custom configuration
 @gnome-desktop
+gnome-tweaks
 %end
 
 %include custom-repo.ks
