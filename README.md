@@ -21,6 +21,14 @@ The following packages are pre-installed in each image:
 - ffmpeg-libs
 - unrar
 
+The rpmfusion-free and rpmfusion-nonfree repositories are enabled by default.
+
+Flathub is also enabled by default.
+
+## nvidia-builds
+
+All nvidia-labeled builds contain the latest version of nvidia drivers from rpmfusion
+
 ## gnome-default
 
 fedora-gnome-deafult contains standard packages that come in the @gnome-desktop group. Gnome-tweaks is also pre-installed.
@@ -32,3 +40,11 @@ fedora-gnome-minimal contains standard packages that come in the @gnome-desktop 
 ## kde-default
 
 fedora-kde-deafult contains standard packages that come in the @kde-desktop group.
+
+## finnaly 
+
+We are ready to listen to any suggestions and criticism. Any contribution to this project is very important to us.
+
+You can follow the news in our Telegram channel: https://t.me/rufedora
+
+We also recommend that you familiarize yourself with the Wiki of this project https://github.com/megafon929/fedora-custom/wiki
