@@ -7,6 +7,7 @@
 %packages
 # Gnome desktop custom configuration
 @kde-desktop-environment
+-gstreamer1-plugin-openh264
 %end
 
 %include custom-repo.ks
