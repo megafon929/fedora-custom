@@ -6,7 +6,6 @@
 # KDE desktop custom configuration
 @kde-desktop
 -hplip
--gstreamer1-plugin-openh264
 %end
 
 %include custom-repo.ks
