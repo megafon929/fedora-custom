@@ -5,6 +5,7 @@
 %packages
 # Gnome desktop custom configuration
 @gnome-desktop
+gnome-tweaks
 -gnome-classic-session
 -gnome-boxes
 -gnome-connections
