@@ -8,6 +8,7 @@
 -gstreamer1-plugin-openh264
 -gnome-classic-session
 -gnome-boxes
+-gnome-connections
 %end
 
 %include custom-repo.ks
