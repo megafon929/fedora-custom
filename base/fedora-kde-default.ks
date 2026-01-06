@@ -10,7 +10,6 @@
 %end
 
 %include custom-repo.ks
-%include nvidia.ks
 
 %post
 # set default GTK+ theme for root (see #683855, #689070, #808062)
