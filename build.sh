@@ -1,7 +1,6 @@
 #!/bin/bash
 current_date=$(date +%Y%m%d)
 rm -f auto.ks
-rm -r result
 echo "Доступны следующие вариант"
 echo "1) fedora-kde-default"
 echo "2) fedora-gnome-default"
@@ -41,5 +40,6 @@ case $variantn in
        exit 
        ;;
 esac
+rm -r result-$name$nvidia
 ksflatten -c base/$config$nvidia.ks -o auto.ks -v f43
 livemedia-creator --make-iso --ks auto.ks --no-virt --iso-only --iso-name fedora-$name$nvidia-live-x86_64-$current_date.iso --volid Fedora --releasever 43 --resultdir ./result-$name$nvidia --nomacboot --project "fedora-$name$nvidia-$current_date"
